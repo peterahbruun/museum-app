@@ -5,18 +5,22 @@ text-align: center
 }
 
 main {
-
-
-
+    font-size: 30%;
+margin: 20em 10 em
 
 }
+
+
 
 h1 {
-font-size: 30pt;
-
-
+font-size: 70pt;
 }
 
-.artObject {width: 60%;
-height: 30%;}
+.artObject {width: 40%;
+height: 40%; 
+max-width: 50% ;
+border-radius: 50px;
+border: .3rem blue;
+margin: 20px;
 
+}
