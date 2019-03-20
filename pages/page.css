@@ -13,14 +13,19 @@ margin: 20em 10 em
 
 
 h1 {
-font-size: 70pt;
+font-size: 30pt;
 }
 
-.artObject {width: 40%;
-height: 40%; 
+h2 {
+    font-size: 30pt;
+}
+section .comment {font-size: 20pt }
+
+.artObject {width: 20%;
+height: 20%; 
 max-width: 50% ;
 border-radius: 50px;
 border: .3rem blue;
-margin: 20px;
+margin: 30px;
 
 }
