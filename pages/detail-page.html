@@ -11,7 +11,7 @@
         <section id= "content detail1">
                 <h1> Peter's Mobile Museum app</h1>
                 <h1> Two ladies chatting on the beach</h1>
-    <img class="artObject" src="https://cdn11.bigcommerce.com/s-vak6ug5w2j/images/stencil/500x659/products/14030/14298/Frank_Benson_-_Elisabeth_and_Anna_or_In_Summer_12x16_rtfuxq__46473.1486399117.jpg">
+    <img class="artObject2" src="https://cdn11.bigcommerce.com/s-vak6ug5w2j/images/stencil/500x659/products/14030/14298/Frank_Benson_-_Elisabeth_and_Anna_or_In_Summer_12x16_rtfuxq__46473.1486399117.jpg">
     <section id="comments">
             <h2>Comments</h2>
             
@@ -20,6 +20,19 @@
               <p>"This is awesome!"</p>
             </section>
           </section>
+          <form onsubmit="submitComment(); return false">
+                <div class="formSection">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name">
+                </div>
+                <div class="formSection">
+                  <label for="msg">Message:</label>
+                  <textarea id="msg"></textarea>
+                </div>
+                <div class="button">
+                  <button type="default">Post your comment</button>
+                </div>
+              </form>
 </main>
 </body>
 </html>
